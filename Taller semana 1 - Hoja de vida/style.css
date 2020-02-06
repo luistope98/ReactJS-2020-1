@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web&display=swap');
+
+.redesSoc{
+  display: block;
+  text-align: center;
+  vertical-align: middle; 
+
+}
+
+.redesSoc a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.redesSoc i {
+  margin: auto;
+}
+
+.facebook {
+  background: #24292e;
+  color: white;
+}
+
+.instagram {
+  background:#0e76a8;
+  color: white;
+}
+
+.google {
+  background: #00aced;
+  color: white;
+}
+
+
+#Contacto {
+  display: block;
+  margin: auto;
+  border: 5px solid #ddd;
+  border-radius: 100px;
+  padding: 5px;
+  width: 150px;
+  height: 200px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.datosCont li {
+  margin-bottom: 20px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.datosCont {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: left;
+  
+}
+
+.barraEst h2 {
+  padding: 20px 5px 5px 5px;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 3px dashed;
+  width: 300px;
+  margin: auto;
+  
+}
+
+.barraEst {
+  height: 100%;
+  width: 400px; 
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background: #111;
+  overflow-x: hidden; 
+  padding-top: 20px;
+  
+}
+
+.main {
+  margin-left: 400px;
+  padding: 0px 10px;
+}
+
+.intro {
+  text-align:center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.info {
+  font-family: 'Titillium Web', sans-serif;  
+  text-align: center;
+}
+
+.info li{
+  font-size: 25px;
+}
+
+.main h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+fieldset {
+	border:1px solid #999;
+	border-radius:8px;
+	box-shadow:0 0 10px #999;  
+}
+
+#contenedor{
+  text-align:justify;
+  vertical-align: middle;
+  width: 100%;
+
+}
+
+.cuadre{
+  display:inline-block; 
+	border:1px solid #999;
+	border-radius:8px;
+  box-shadow:0 0 5px #999; 
+  font-size: 17px;
+  padding: 5px 10px 5px 10px;
+  width: 46%;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.cuadre h4,h3{
+  margin:0;
+  font-size: 30px;
+}
+
+.skills {
+  font-size: 25px;
+}
+
+.main ul{
+    padding-left: 0;
+}
+
+
+
+

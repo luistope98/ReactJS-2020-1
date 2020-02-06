@@ -1,0 +1,114 @@
+.cuadro1{
+    width: 238px;
+    height: 238px;
+    background : url(img/row-1-col-1.jpg);
+}
+
+.cuadro2{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/dQm5GBkD/row-1-col-2.jpg);
+
+}    
+
+.cuadro3{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/Wb5SH17v/row-1-col-3.jpg);
+
+}
+
+.cuadro4{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/15mJBqwB/row-2-col-1.jpg);
+
+}   
+
+.cuadro5{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/htwsKZwZ/row-2-col-2.jpg);
+
+}   
+
+.cuadro6{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/dVDnPcWT/row-2-col-3.jpg);
+
+}   
+
+.cuadro7{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/CKqN5Hph/row-3-col-1.jpg);
+
+}   
+
+.cuadro8{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/Hx1tycTQ/row-3-col-2.jpg);
+
+}   
+
+.cuadro9{
+    width: 238px;
+    height: 238px;
+    background : url(https://i.postimg.cc/rmGNCVp7/row-3-col-3.jpg);
+
+
+}
+
+.cuadroVac{
+    width: 238px;
+    height: 238px;
+    background : white;
+}
+
+.rompecabezas{
+    border: 4px solid black;
+    align-content: center;
+}
+
+.rompecabezas td{
+    border: 2px solid black;
+}
+
+.gran{
+    display: inline-flex;
+
+}
+
+.boton{
+    display:inline-block;
+    padding:0.7em 1.4em;
+    height: 70px;
+    width: 200px;
+    margin: auto 50px;
+    border-radius:0.15em;
+    border-color: #D3D3D3;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:1000;
+    color:#FFFFFF;
+    background-color:#2F4F4F;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+    }
+
+.boton:active{
+    top:0.1em;
+}
+
+body{
+    margin: 100px auto auto auto ;
+    text-align: center;
+    width:inherit;
+    background: #D3D3D3;
+
+}
