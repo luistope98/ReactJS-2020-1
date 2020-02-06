@@ -1,0 +1,60 @@
+#puzzle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: 0px 20% 0px 20%;
+    width: auto;
+    height: 70%;
+    display: none;
+
+}
+
+body {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20% 0px 20%;
+    -webkit-box-shadow: 15px 9px 32px 8px rgba(173,170,173,1);
+    -moz-box-shadow: 15px 9px 32px 8px rgba(173,170,173,1);
+    box-shadow: 15px 9px 32px 8px rgba(173,170,173,1);
+    padding: 2%;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8,
+#img9 {
+    display: flex;
+    align-items: center;
+    flex: 0 0 32%;
+    padding: 0;
+}
+
+#images {
+    width: 100%;
+    height: auto;
+}
+
+#imageSolved {
+    width: 94%;
+    height: auto;
+    padding: 2%;
+}
+
+#buttons {
+    padding: 2%;
+}

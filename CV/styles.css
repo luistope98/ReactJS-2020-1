@@ -1,0 +1,105 @@
+@font-face{
+    font-family: courriculum;
+    src: url(assetes/Actor-Regular.ttf);
+}
+*{
+    font-family: courriculum;
+}
+
+body{
+  padding: 0px 25px 0px 25px ;
+}
+.data,#main{
+    display: flex;
+}
+#row1{
+    margin-right: 0px;
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    flex: 1;
+    border-radius: 20px;
+}
+#row2{
+    margin-left: 15px;
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 5px 5px 5px 5px; 
+    flex: 2;
+    border-radius: 20px;
+}
+#image{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 18px;
+}
+#mainText{
+    text-align: center;
+    flex: 2;
+    color: white;
+    opacity: 0.8;
+}
+
+#cargo{
+    border: grey 2px solid;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 15px 50px 15px 50px;
+    color: white;
+    font-size: 20px;
+    font-size: 20px;
+    opacity: 0.6;
+}
+#imagePic{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 49%;
+    border: grey 2px solid;
+
+}
+#main{
+    background-color: #2E2E2E;
+    margin: 5px 15px 15px 15px;
+    border-radius: 20px;
+}
+#separador{
+    margin: 0px 12% 0px 12%;
+}
+p{
+    text-align: justify;
+    margin: 10px 30px 10px 30px;
+}
+#nombre{
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+#Icon{
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin: 0px;
+}
+#textSeparator{
+    display: inline-block;
+    padding-bottom: 6px;
+}
+.flotante {
+    width:30px;
+  height:auto;
+  position:fixed;
+  right:0px;
+  bottom:0px;
+  background-color: #EEEEEE;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+  fill: white;
+  border: grey solid 2px;
+}
+
+
+.tabla{
+    margin: 0px auto;
+}
