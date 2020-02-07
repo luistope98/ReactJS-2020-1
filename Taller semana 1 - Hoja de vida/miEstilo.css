@@ -1,0 +1,51 @@
+body
+{
+    display: flex;
+}
+.imagen
+{
+    padding-left: 8%;
+    padding-top: 1%;
+}
+.contenedor
+{
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 60%;
+    background: #fff;
+    padding: 10 px;
+    
+}
+.principal
+{
+    background:#FF8300;
+    padding: 10 px;
+}
+.header
+{
+    display: flex;
+}
+.nombre
+{
+    padding-top: 4%;
+    margin-left: 40px;
+    width: 100%;
+    text-align: center;
+}
+.titulo
+{
+    border: 1px solid #FF8300;
+    color: black;
+}
+.profesionales
+{
+    padding: 0px;
+}
+.inf
+{
+    text-align: justify ;
+}
+.contenido
+{
+    padding: 10px;  
+}
