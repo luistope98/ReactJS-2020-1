@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2,h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p{
+    font-family: Arial;
+}
+.principal{
+    display: flex;
+}
+.barra-izquierda{
+    width: 30%;
+    height: 100%;
+    padding: 2em;
+    background-color: #2975CC;
+}
+.imagen{
+    width: 150px;
+    margin: 0 auto;
+}
+.imagen img{
+    width: 100%;
+}
+.foto h1{
+    color: #ebf9ff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em 1em 0 1em;
+}
+.foto p{
+    text-align: center;
+    color:#ebf9ff;
+    padding-bottom: 2em;
+}
+.informacion h2,.contacto h2,.redes h2{
+    font-size: 1.3em;
+    color:#ebf9ff;
+    padding-bottom: .5em;
+}
+.contacto{
+    margin: 1em 0;
+}
+.personal{
+    border-collapse: collapse;
+    width: 100%;
+    color:#ebf9ff;
+    font-family: Arial;
+}
+th,td{
+    border-bottom: 1px solid #ebf9ff ;
+    border-top: 1px solid #ebf9ff ;
+    padding: 0.5em 0;
+}
+.redes a{
+    font-size: 2em;
+    text-decoration: none;
+    color: #ebf9ff;
+}
+.redes p{
+    color: #ebf9ff;
+    display: flex;
+    align-items: center;
+    margin: .5em 0;
+}
+.contenido{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.perfil,.experiencia,.formacion{
+    width: 80%;
+    padding: 1em;
+}
+.perfil h2,.experiencia h2,.formacion h2 {
+    border-bottom: 2px solid darkgrey;
+}
+.experiencia-item{
+    display: flex;
+    padding: 1em;
+}
+.year{
+    width: 30%;
+}
+.year h3{
+    font-family: Arial;
+    background-color: #2975CC;
+    margin: 1em;
+    color: white;
+    padding: .2em;
+    text-align: center;
+}
+.experiencia-item .content{
+    width: 70%;
+    margin: 1em;
+    font-family: Arial;
+}
