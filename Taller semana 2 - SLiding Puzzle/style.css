@@ -1,0 +1,66 @@
+.list{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2vw;
+    width: 50vw;
+
+    font-size: 0;
+  }
+  
+  .item{
+    display: inline-block;
+    width: 33%;
+    height: 15vw;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+    text-align: center;
+    
+  }
+  
+  .text{
+    margin-top: 1vw;
+    font-size: 5em;
+    color: white;
+    border: 1px solid red;
+  }
+  
+  .i1{
+    background-image: url('https://wallpaperaccess.com/full/401601.jpg');
+  }
+  
+  .i2{
+    background-image: url('https://i.pinimg.com/originals/d9/6e/f2/d96ef2f6f2362304c94289415f321160.jpg');
+  }
+  
+  .i3{
+    background-image: url('https://i.pinimg.com/originals/a8/fd/43/a8fd43d144fc532d4db8546e7107d7ad.jpg');
+  }
+  
+  .i4{
+    background-image: url('https://i.pinimg.com/originals/25/d2/e0/25d2e0e92357b0b913cd54c3405d1faa.jpg');
+  }
+  
+  .i5{
+    background-image: url('https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmUU441QdxAwTJT3xTrdqbZSY7fophBa8uVhhs1QJ4dXb5/9cef285d9acbab1c0fa7cfe09d93228a--science-fiction-art-retro-futurism.jpg');
+  }
+  
+  .i6{
+    background-image: url('https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/18s8dbxc1xac6jpg.jpg');
+  }
+  
+  .i7{
+    background-image: url('https://i.redd.it/xxwfw14lxg041.jpg');
+  }
+  
+  .i8{
+    background-image: url('https://i.imgur.com/tdXRsDh.jpg');
+  }
+  
+  .i9{
+    background-image: url('https://i.imgur.com/j3x7cii.jpg');
+  }
+  

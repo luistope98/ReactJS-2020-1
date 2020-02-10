@@ -1,0 +1,111 @@
+#text-container{
+    height: 38vw;
+    margin-top: 0.5vw;
+
+}
+
+.text-box-exp{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+
+
+    color: white;
+    font-family: mySecondFont;
+    font-size: 0.9em;
+
+
+    vertical-align: top;
+}
+
+.text-box-exp-2{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+
+
+    color: white;
+    font-family: mySecondFont;
+    font-size: 0.9em;
+
+    vertical-align: top;
+
+}
+
+.separator-line-center{
+    display: inline-block;
+    width: 0.4%;
+    height: 100%;
+
+
+    color: white;
+    font-family: mySecondFont;
+    font-size: 0.9em;
+
+
+    border: 3px solid #FF00CC;
+    background-color: white;
+    box-shadow: -5px -5px 45px 5px #FF00CC, 5px 5px 45px 5px #FF00CC;
+    border-radius: 3px;
+}
+
+.spacing-inner-exp{
+    width: 100%;
+    padding-left: 1vw;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.text-neon-4{
+    color: white;
+    font-family: myFirstFont;
+    font-size: 1.3em;
+    
+    padding-left: 0.8vw;
+}
+
+.spacing-data-exp{
+    width: 100%;
+    padding-left: 3vw;
+}
+
+.data-item-exp{
+    width: 75%;
+    margin-top: 0.5vw;
+    font-size: 1.0em;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cool-gif-exp{
+    position: absolute;
+
+    height: 8vw;
+    width: 8vw;
+
+    left: 82vw;
+    top: 50vw;
+    transform: rotate(110deg);
+}
+
+.cool-gif-exp-2{
+    position: absolute;
+
+    height: 7vw;
+    width: 7vw;
+
+    left: 10vw;
+    top: 75vw;
+    transform: rotate(20deg);
+}
+
+.separator-line-2{
+    width: 75%;
+    height: 0.2vw;
+    border: 3px solid #FF00CC;
+    background-color: white;
+    box-shadow: -5px -5px 45px 5px #FF00CC, 5px 5px 45px 5px #FF00CC;
+    border-radius: 3px;
+}

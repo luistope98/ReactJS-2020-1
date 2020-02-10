@@ -1,0 +1,82 @@
+.text-box-education{
+    display: block;
+    width: 75%;
+    height: 80%;
+
+    color: white;
+    font-family: mySecondFont;
+    font-size: 0.9em;
+    margin: 0 auto;
+    margin-top: 2vw;
+}
+
+#text-container-2{
+    height: 36vw;
+    margin-top: 1vw;
+}
+
+.spacing-inner-ed{
+    width: 100%;
+    padding-left: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.spacing-inner-ed-2{
+    width: 100%;
+    padding-left: 1.5vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+.text-neon-3{
+    color: white;
+    font-family: myFirstFont;
+    font-size: 1.3em;
+    
+    padding-left: 0.8vw;
+}
+
+.separator-line-2{
+    width: 90%;
+    height: 0.2vw;
+    border: 3px solid #FF00CC;
+    background-color: white;
+    box-shadow: -5px -5px 45px 5px #FF00CC, 5px 5px 45px 5px #FF00CC;
+    border-radius: 3px;
+}
+
+.spacing-data-ed{
+    width: 100%;
+    padding-left: 3vw;
+}
+
+.data-item-ed{
+    width: 75%;
+    margin-top: 0.5vw;
+    font-size: 1.0em;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cool-gif-ed{
+    position: absolute;
+
+    height: 7vw;
+    width: 7vw;
+
+    left: 10vw;
+    top: 75vw;
+    transform: rotate(350deg);
+}
+
+.cool-gif-ed-2{
+    position: absolute;
+
+    height: 7vw;
+    width: 7vw;
+
+    left: 80vw;
+    top: 50vw;
+    transform: rotate(30deg);
+}

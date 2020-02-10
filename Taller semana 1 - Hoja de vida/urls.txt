@@ -1,0 +1,21 @@
+https://wallpapersite.com/images/pages/pic_w/12902.png
+https://c4.wallpaperflare.com/wallpaper/744/451/735/abstract-sci-fi-wallpaper-preview.jpg
+https://i.pinimg.com/originals/55/1c/4e/551c4edb922be7e0cc36e189961f5d8f.jpg
+https://images.fineartamerica.com/images-medium-large-5/retro-80s-background-jamielawton.jpg
+
+
+https://cdn130.picsart.com/299360426141211.png?r1024x1024
+
+background colors:
+
+#02A4D3 cyan
+#3F26BF purple
+#3F26BF blue
+#F653A6 pink
+
+
+background-image: url('');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+overflow: hidden;

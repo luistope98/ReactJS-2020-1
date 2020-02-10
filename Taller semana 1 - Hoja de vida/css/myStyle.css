@@ -1,0 +1,450 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#top-container{
+    background-image: url('https://wallpaperaccess.com/full/401601.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    display: block;
+    height: 35vw;
+
+}
+
+.profile-item{
+    display: block;
+    height: 17vw;
+    width: 17vw;
+
+    margin: 0px auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+    z-index: 1;
+}
+
+.img-profile{
+    max-width:100%;
+    max-height:100%;
+}
+
+.name-item{
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.job-text{
+    display: inline-block;
+
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: myNameFont;
+    padding: 5px 5px;
+    background-color: #652DC1;
+    color: white;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+@font-face{
+    font-family: myNameFont;
+    src: url(../fonts/Alien-Encounters-Bold.ttf);
+}
+
+#name-style{
+    font-family: myNameFont;
+    font-size: 2em;
+    color: #F653A6;
+}
+
+.info-profile{
+    margin-top: 20px;
+}
+
+#info-container{
+    height: 6vw;
+
+    width: 40vw;
+
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -5px -5px 30px 5px #3F26BF, 5px 5px 30px 5px #652DC1;
+}
+
+.info-lr{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #3F26BF;
+}
+
+.info-lr-2{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #F653A6;
+}
+
+.info-tb{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.info-tb-2{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.icon{
+   padding-top: 10px;
+}
+
+.dim{
+    display: block;
+    margin: 0 auto;
+
+    height: 2vw;
+    width: 2vw;
+    filter: invert(100%);
+}
+
+.dim-2{
+    display: block;
+    margin: 0 auto;
+
+    height: 2vw;
+    width: 3vw;
+    filter: invert(100%);
+}
+
+.text{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-family: mySecondFont;
+    font-size: 0.8em;
+    color: white;
+}
+
+#navbar{
+    height: 8vw;
+    background-color: black;
+}
+#nav-list{
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/61/71/b3/6171b34561ff64cebb281944a55fd070.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+
+    opacity:0.9;
+}
+
+#navbar-fill{
+    background-color: black;
+    height: 2vw;
+    box-shadow: -5px -5px 30px 5px black, 5px 5px 30px 5px black;
+}
+
+@font-face{
+    font-family: myFirstFont;
+    src: url(../fonts/Alien-Encounters-Bold.ttf);
+    font-weight: bold;
+}
+
+.nav-item{
+    display: inline-block;
+    font-family: myFirstFont;
+    font-size: 2em;
+    padding: 10px 10px;
+    margin: 0 0;
+    color: white;
+
+    background-color: black;
+
+    transition: transform .2s;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.nav-item:hover{
+    color: white;
+    
+    background-color: #F653A6;
+
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+#bottom-container{
+    display: block;
+    height: 50vw;
+    background-image: url('https://ak6.picdn.net/shutterstock/videos/28467886/thumb/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    opacity:0.9;
+}
+
+#content-container{
+    margin: 0 auto;
+    height: 40vw;
+    width: 55vw;
+
+    margin-top: 5vw;
+
+    background-image: url('https://image.freepik.com/free-photo/brick-wall-neon-light_47243-765.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    
+}
+
+#title-container{
+    height: 2vw;
+    margin-top: 2vw;
+}
+
+.spacing{
+    height: 100%;
+    width: 100%;
+    padding-left: 1.5vw;
+}
+
+.spacing-inner{
+    width: 100%;
+    padding-left: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.spacing-inner-2{
+    width: 100%;
+    padding-left: 1.5vw;
+    margin-top: 1vw;
+}
+
+
+.title-box{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+.title-box-2{
+    display: block;
+    float: right;
+    width: 50%;
+    height: 100%;
+
+}
+
+.separator-line{
+    width: 70%;
+    height: 0.2vw;
+    border: 3px solid #FF00CC;
+    background-color: white;
+    box-shadow: -5px -5px 45px 5px #FF00CC, 5px 5px 45px 5px #FF00CC;
+    border-radius: 3px;
+}
+
+.text-neon{
+    color: white;
+    font-family: myFirstFont;
+    font-size: 0.9em;
+}
+
+.text-neon-2{
+    color: white;
+    font-family: myFirstFont;
+    font-size: 1em;
+}
+
+#text-container{
+    height: 32vw;
+    margin-top: 1vw;
+}
+
+@font-face{
+    font-family: mySecondFont;
+    src: url(../fonts/hemi\ head\ bd\ it.ttf);
+    font-weight: bold;
+}
+
+.text-box{
+    display: block;
+    width: 50%;
+    height: 100%;
+
+    float: left;
+    color: white;
+    font-family: mySecondFont;
+    font-size: 0.9em;
+}
+
+.text-box-2{
+    display: block;
+    width: 50%;
+    height: 100%;
+
+    float: right;
+    color: white;
+    font-family: mySecondFont;
+    font-size: 0.9em;
+
+    
+
+}
+
+.spacing-text{
+    width: 80%;
+    padding-left: 2vw;
+
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 1vw;
+
+}
+
+.spacing-text-2{
+    width: 80%;
+    padding-left: 2vw;
+
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 1vw;
+
+}
+
+.spacing-data{
+    width: 100%;
+    padding-left: 3vw;
+}
+
+
+.data-item{
+    border-bottom: 2px solid white;
+    width: 65%;
+    margin-top: 0.5vw;
+    font-size: 1.3em;
+}
+.data-item-1{
+    border-bottom: 2px solid white;
+    width: 65%;
+    font-size: 1.3em;
+}
+
+.cat-item{
+    float: left;
+    
+}
+.txt-item{
+    float: right;
+}
+
+#ending-container{
+    height: 10vw;
+    background-image: url('https://media2.giphy.com/media/t4DcI9P3dNVoA/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.download-text{
+    margin-top: 4vw;
+    color: white;
+    font-family: myFirstFont;
+    font-size: 2em;
+}
+
+.cool-gif{
+    position: absolute;
+
+    height: 10vw;
+    width: 10vw;
+
+    top: 50vw;
+    left: 10vw;
+    transform: rotate(20deg);
+}
+
+.cool-gif-2{
+    position: absolute;
+
+    height: 10vw;
+    width: 10vw;
+
+    left: 80vw;
+    top: 72vw;
+
+    transform: scaleX(-1) rotate(40deg);
+}
+
+
+
+
